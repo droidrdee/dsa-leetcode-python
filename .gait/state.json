@@ -1,6 +1,27 @@
 {
   "panelChats": [],
-  "inlineChats": [],
+  "inlineChats": [
+    {
+      "inline_chat_id": "0ada874c-2e1b-4824-8072-bd3f6ac09d6b",
+      "file_diff": [
+        {
+          "file_path": "Deepak/lineraSearch.py",
+          "diffs": [
+            {
+              "count": 9,
+              "added": true,
+              "removed": false,
+              "value": "def linear_search(arr, target):\n    for i in range(len(arr)):\n        if arr[i] == target:\n            return i\n    return -1\n\n# Example usage\narr = [2, 4, 6, 8, 10]\ntarget ="
+            }
+          ]
+        }
+      ],
+      "selection": null,
+      "timestamp": "2025-02-21T17:42:34.947Z",
+      "prompt": "write a linear search code",
+      "parent_inline_chat_id": null
+    }
+  ],
   "schemaVersion": "1.0",
   "deletedChats": {
     "deletedMessageIDs": [],
